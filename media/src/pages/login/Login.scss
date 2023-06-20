@@ -9,8 +9,11 @@
         display: flex;
         background-color: white;
         border-radius: 10px;
+        min-height: 600px;
         .left{
             flex: 1;
+            background: linear-gradient(rgba(39,11, 96, 0.5));
+            background-size: cover;
             .h1{}
             .p{}
             .span{}
