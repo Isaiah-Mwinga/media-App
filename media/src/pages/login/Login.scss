@@ -14,10 +14,27 @@
             flex: 1;
             background: linear-gradient(rgba(39,11, 96, 0.5));
             background-size: cover;
-            .h1{}
+            padding: 50px;
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            color : white;
+            .h1{
+                font-size: 100px;
+                line-height: 100px;
+            }
             .p{}
-            .span{}
-            .button{}
+            .span{
+                font-size: 14px;
+            }
+            .button{
+                width: 50%;
+                padding: 10px;
+                border: none;
+                background-color: white;
+                color: rebeccapurple;
+                font-weight: bold;
+            }
         }
         .right{
             flex: 1;
