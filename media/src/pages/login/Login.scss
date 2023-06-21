@@ -34,15 +34,34 @@
                 background-color: white;
                 color: rebeccapurple;
                 font-weight: bold;
+                cursor: pointer;
             }
         }
         .right{
             flex: 1;
-            .h1{}
+            padding: 50px;
+            display: flex;
+            flex-direction: column;
+            gap: 50px;
+            .h1{
+                color: #555;
+            }
             .form{
-                .input{}
-                .input{}
-                .button{}
+                display: flex;
+                flex-direction: column;
+                gap: 30px;
+
+                input{
+                    border: none;
+                    border-bottom: 1px solid lightgray;
+                    padding: 20px 10px;
+                }
+                button{
+                    width: 50%;
+                    padding: 10px;
+                    border: none;
+                    background-color: #938eef;
+                }
                 .span{}
             }
         }
