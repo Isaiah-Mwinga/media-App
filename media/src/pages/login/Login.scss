@@ -18,15 +18,19 @@
             flex-direction: column;
             gap: 30px;
             color : rgb(252, 249, 249);
-            .h1{
+            
+            h1{
                 font-size: 100px;
                 line-height: 100px;
             }
-            .p{}
-            .span{
+            
+            p{}
+            
+            span{
                 font-size: 14px;
             }
-            .button{
+            
+            button{
                 width: 50%;
                 padding: 10px;
                 border: none;
@@ -42,13 +46,15 @@
             display: flex;
             flex-direction: column;
             gap: 50px;
-            .h1{
+
+            h1{
                 color: #555;
             }
-            .form{
+            
+            form{
                 display: flex;
                 flex-direction: column;
-                gap: 30px;
+                gap: 50px;
 
                 input{
                     border: none;
@@ -61,7 +67,7 @@
                     border: none;
                     background-color: #938eef;
                 }
-                .span{
+                span{
                     font-size: 14px;
                 }
             }
