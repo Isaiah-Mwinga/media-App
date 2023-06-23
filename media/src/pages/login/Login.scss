@@ -1,15 +1,16 @@
 .login{
     height: 100vh;
-    background-color: rgb(189, 184, 231);
+    background-color: rgb(193, 190, 255);
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
     .card{
         width: 50%;
         display: flex;
         background-color: white;
         border-radius: 10px;
         min-height: 600px;
+        overflow: hidden;
         .left{
             flex: 1;
             background-color: rgb(66, 16, 16);
@@ -45,7 +46,7 @@
             padding: 50px;
             display: flex;
             flex-direction: column;
-            gap: 50px;
+            gap: 30px;
 
             h1{
                 color: #555;
