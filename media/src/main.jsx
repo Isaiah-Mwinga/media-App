@@ -1,12 +1,16 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import Login from './pages/login/Login.jsx'
-//import Register from './pages/register/Register.jsx'
-//import Profile from './pages/profile/Profile.jsx'
-//import Home from './pages/home/Home.jsx'
+import React from "react";
+import ReactDOM from "react-dom/client";
+import App from "./App";
+import { AuthContextProvider } from "./context/authContext";
+import { DarkModeContextProvider } from "./context/darkModeContext";
 
-ReactDOM.createRoot(document.getElementById('root')).render(
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(
   <React.StrictMode>
-    <Login />
-  </React.StrictMode>,
-)
+    <DarkModeContextProvider>
+      <AuthContextProvider>
+        <App />
+      </AuthContextProvider>
+    </DarkModeContextProvider>
+  </React.StrictMode>
+);
