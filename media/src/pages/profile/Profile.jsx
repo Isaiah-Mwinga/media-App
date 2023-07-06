@@ -49,11 +49,11 @@ const Profile = () => {
             <div className="info">
               <div className="item">
                 <PlaceIcon />
-                <span>USA</span>
+                <span>Kenya</span>
               </div>
               <div className="item">
                 <LanguageIcon />
-                <span>lama.dev</span>
+                <span>Brandon</span>
               </div>
             </div>
             <button>follow</button>
